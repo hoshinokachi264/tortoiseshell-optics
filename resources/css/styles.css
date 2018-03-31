@@ -142,3 +142,17 @@ footer img {
   margin-left: 2rem;
   margin-right: 1rem;
 }
+               /*Media Queries*/
+@media only screen and (max-width: 1024px){
+ nav.container, header {
+   max-width: 100%;
+ }
+}
+@media only screen and (max-width: 800px){
+  .menu ul.mobile-menu {
+    display: block;
+  }
+  .menu ul {
+    display: none;
+  }
+}
