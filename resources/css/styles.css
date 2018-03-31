@@ -99,14 +99,46 @@ div {
   margin: 3rem;
 }
 .service img {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 .service img.paper {
-    width: 3.5rem;
+  width: 3.5rem;
 }
 .service img.ruler {
-    width: 5rem;
+  width: 5rem;
 }
 .service img.truck {
-    width: 5rem;
+  width: 5rem;
+}
+                  /*Info*/
+.information {
+  display: flex;
+  justify-content: center;
+}
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+.title {
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+  max-width: 15rem;
+  padding: 0.5rem 1.25rem;
+}
+.info p {
+  padding: 1rem 0px;
+}
+                /*Footer*/
+footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
