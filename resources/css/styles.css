@@ -22,10 +22,6 @@ nav, .menu {
   align-items: center;
   justify-content: space-between;
 }
-/*nav div {
-
-
-}*/
 nav img {
   height: 1.5rem;
   margin-left: 2rem;
@@ -58,4 +54,59 @@ ul li {
 }
 .mobile-menu {
   display: none;
+}
+                  /*Headline*/
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.67em 0px;
+}
+header .flex-container {
+  justify-content: flex-end;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+.main-banner {
+  background-color: white;
+  padding: 0.75rem 5rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: 0rem;
+  line-height: 2.4rem;
+}
+.flex-container {
+  display: flex;
+}
+                  /*Services*/
+div {
+  display: block;
+}
+.services {
+  display: flex;
+  justify-content: center;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+}
+.service img {
+    margin-bottom: 1rem;
+}
+.service img.paper {
+    width: 3.5rem;
+}
+.service img.ruler {
+    width: 5rem;
+}
+.service img.truck {
+    width: 5rem;
 }
